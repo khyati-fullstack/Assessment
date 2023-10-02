@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url(../HTML5/Images/bgimg.jpeg)no-repeat center center/cover;
+    background-attachment: fixed;
+}
+#header-wrapper {
+    display: flex;
+    text-align: center;
+}
+.content {
+    padding: 10px 6px;
+    color: white;
+    justify-content: flex-start;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+.content h1 {
+    border: 3px double white;
+    margin: 30px 0px 70px;
+}
+
+.content i {
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 50px 0px 10px;
+}
+.content0 {
+    border: 1px solid white;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7));
+}
+.content0 h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: aqua;
+}
+.content ul li {
+    list-style: none;
+}
+.content ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    display: flex;
+}
+div[class*="container"]{
+ margin:  10px 30px 50px;
+}
+
+.bgcolor {
+    background-color: darkgrey;
+    padding: 0px 100px;
+    
+
+}
+.container1 {
+    display: flex;
+}
+.content1 {
+    margin-right:100px;
+}
+.content01 {
+    margin-left:100px;
+}
+.container1 h3 {
+    padding: 30px 0px;
+}
+.container1 i {
+    font-size: 50px;
+}
+.container2 {
+    border: 2px double black;
+}
+.content2 h1 {
+   padding: 20px 10px 10px; 
+   color: aqua;
+}
+.content02{
+    display: flex;
+}
+.content02 img {
+    padding: 10px;
+}
+.content3 h1{
+    color: aqua;
+}
+.content3 p {
+    margin-right: 100px ;
+    padding: 20px 100px 20px 0px;
+}
+.content03 img {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin:10px 10px 0px 0px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    /* flex-wrap: wrap; */
+}
+.container4 {
+    display: flex;
+}
+.content4 {
+    border: 2px double black;
+    padding: 30px 20px;
+}
+.content4 h1 {
+    padding: 10px 0px 20px;
+    color: aqua;
+}
+.content04 {
+    margin: 0px 100px;
+    padding: 0px 100px;
+}
+.content04 input {
+    margin: 15px;
+    padding-right: 30px;
+}
+.content04 .msg {
+    padding-bottom: 50px;
+}
+.button {
+    align-items: flex-end;
+}
