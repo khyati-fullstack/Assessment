@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background: url(../HTML5/Images/bgimg.jpeg)no-repeat center center/cover;
+    background: url(./Images/bgimg.jpeg)no-repeat center center/cover;
     background-attachment: fixed;
 }
 #header-wrapper {
